@@ -1,5 +1,6 @@
 :root{
     --bs-light-rgb: 255, 255, 255;
+    --bs-dark-rgb: 0, 0, 0;
 }
 
 /**********************************************************************/
@@ -91,7 +92,7 @@ body{
 
 .section-text{
     margin: 0;
-    padding: 1rem;
+    padding: 1rem 0;
     font-size: 1rem;
 }
 
@@ -100,3 +101,7 @@ body{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+
+.bg_grey{
+    background-color: #1F1F1F;
+}
