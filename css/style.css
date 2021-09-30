@@ -126,3 +126,21 @@ body{
 .bg_blue.d-flex.align-items-center.text-white{
     min-height: 380px;
 }
+
+/* Footer */
+.bg-footer{
+    background-color: #00439C;
+}
+
+.w_05{
+    width: 5%;
+}
+
+footer ul li{
+    padding: 5px 0;
+}
+
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
