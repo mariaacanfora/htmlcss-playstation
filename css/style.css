@@ -59,12 +59,15 @@ body{
 
 
 /* Main */
-.section-base.section-main-hero{
+.section-base.bg-main-hero{
     padding-top: 300px;
     background-image: url(../img/jumbo-bg.png);
+}
+
+.section-hero{
     background-size: cover;
     background-repeat: no-repeat ;
-    background-position: center;
+    background-position: center; 
 }
 
 .section-title{
@@ -91,3 +94,9 @@ body{
     padding: 1rem;
     font-size: 1rem;
 }
+
+
+.bg-second-hero{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
