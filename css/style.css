@@ -88,5 +88,6 @@ body{
 
 .section-text{
     margin: 0;
+    padding: 1rem;
     font-size: 1rem;
 }
