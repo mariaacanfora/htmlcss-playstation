@@ -105,3 +105,16 @@ body{
 .bg_grey{
     background-color: #1F1F1F;
 }
+
+.bg_lightgrey{
+    background-color: #BEBCBB;
+}
+
+.bg_lightgrey.d-flex.align-items-center{
+    min-height: 240px;
+    overflow: hidden;
+}
+
+.w_60{
+    width: 60%;
+}
