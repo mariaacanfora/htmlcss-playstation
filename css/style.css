@@ -118,3 +118,11 @@ body{
 .w_60{
     width: 60%;
 }
+
+.bg_blue{
+    background-color: #161C3B;
+}
+
+.bg_blue.d-flex.align-items-center.text-white{
+    min-height: 380px;
+}
