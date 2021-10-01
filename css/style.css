@@ -17,12 +17,29 @@ body{
     color: black;
 }
 
+.btn-secondary {
+    background-color: #363636;
+    border-color: #363636;
+}
+
 .btn-danger{
     background-color: #CD3D0F;
+    border-color: #CD3D0F;
 }
 
 
+.btn-primary {
+    background-color: #2D64E6;
+    border-color: #2D64E6;
+}
 
+.text-lightblue{
+    color: #1A81D2;
+}
+
+.text-primary-btn{
+    color: #2D64E6;
+}
 
 
 
