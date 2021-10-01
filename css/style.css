@@ -53,15 +53,15 @@ body{
 
 /* Utilities */
 .section-base{
-    padding: 50px 0;
+    padding: 30px 0;
 }
 
 .section-medium{
-    padding: 150px 0;
+    padding: 50px 0;
 }
 
 .section-large{
-    padding: 300px 0;
+    padding: 70px 0;
 }
 
 .rounded_10{
@@ -89,21 +89,18 @@ body{
 }
 
 .section-title{
+    margin-bottom: 30px;
     font-size: 2.5rem;
-    padding-bottom: 1.5rem;
-    margin-bottom: 0;
 }
 
 .section-title.section-title-small{
-    font-size: 2.3rem;
-    padding-bottom: 1.5rem;
-    margin-bottom: 0;
+    margin-bottom: 30px;
+    font-size: 1.7rem;
 }
 
 .section-subtitle{
     font-size: 1.3rem;
-    padding-bottom: 2rem;
-    margin-bottom: 0;
+    margin-bottom: 30px;
     color: #727272;
 }
 
@@ -112,6 +109,11 @@ body{
     padding: 1rem 0;
     font-size: 1rem;
 }
+
+.section-text-super{
+    font-size: .9rem;
+}
+
 
 
 .bg-second-hero{
@@ -127,10 +129,10 @@ body{
     background-color: #BEBCBB;
 }
 
-.bg_lightgrey.d-flex.align-items-center{
+/* .bg_lightgrey.d-flex.align-items-center{
     min-height: 240px;
     overflow: hidden;
-}
+} */
 
 .w_60{
     width: 60%;
@@ -139,10 +141,10 @@ body{
 .bg_blue{
     background-color: #161C3B;
 }
-
+/* 
 .bg_blue.d-flex.align-items-center.text-white{
     min-height: 380px;
-}
+} */
 
 /* Footer */
 .bg-footer{
