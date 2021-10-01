@@ -119,6 +119,25 @@ body{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+.card-carousel{
+    border: none;
+    background: none;
+}
+
+.card-carousel:focus img{
+    outline: 2px solid #2D64E6;
+}
+
+/* .card-carousel::after{
+    content: "";
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    left: -5px;
+    right: -5px;
+    background-color: rgba(0, 0, 0, 0.233);
+}
+ */
 
 .bg_grey{
     background-color: #1F1F1F;
