@@ -115,7 +115,6 @@ body{
 }
 
 
-
 .bg-second-hero{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
@@ -129,11 +128,6 @@ body{
     background-color: #BEBCBB;
 }
 
-/* .bg_lightgrey.d-flex.align-items-center{
-    min-height: 240px;
-    overflow: hidden;
-} */
-
 .w_60{
     width: 60%;
 }
@@ -141,10 +135,21 @@ body{
 .bg_blue{
     background-color: #161C3B;
 }
-/* 
-.bg_blue.d-flex.align-items-center.text-white{
-    min-height: 380px;
-} */
+
+.copyright{
+    position: relative;
+}
+
+
+.copyright::after{
+    content: "®";
+    position: absolute;
+    top: -25%;
+    right: -10%;
+    transform: scale(50%);
+
+}
+
 
 /* Footer */
 .bg-footer{
