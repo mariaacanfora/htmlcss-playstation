@@ -142,6 +142,7 @@ body{
 .card-carousel{
     border: none;
     background: none;
+    transition: transform .3s;
 }
 
 .card-carousel:focus img{
@@ -199,6 +200,11 @@ body{
 .list-product-item:focus .overlay{
     opacity: 1;
 }
+
+.list-product-item:hover .overlay{
+    opacity: 1;
+}
+
 
 
 
