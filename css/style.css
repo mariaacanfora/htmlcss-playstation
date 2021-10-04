@@ -55,13 +55,6 @@ body{
 }
 
 
-
-
-
-
-
-
-
 /**********************************************************************/
 /* MY CLASSES */
 /**********************************************************************/
@@ -101,11 +94,6 @@ body{
 .nav-link.text-dark:hover {
     color: #1A81D2;
 }
-
-
-
-
-
 
 
 /* Main */
@@ -160,16 +148,9 @@ body{
     outline: 2px solid #2D64E6;
 }
 
-/* .card-carousel::after{
-    content: "";
-    position: absolute;
-    top: -5px;
-    bottom: -5px;
-    left: -5px;
-    right: -5px;
-    background-color: rgba(0, 0, 0, 0.233);
+.card-carousel:hover{
+    transform: translateY(-10%);
 }
- */
 
 .bg_grey{
     background-color: #1F1F1F;
