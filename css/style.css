@@ -91,8 +91,9 @@ body{
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:hover i,
-.nav-link.text-dark:hover {
-    color: #1A81D2;
+.nav-link.text-dark:hover,
+.nav-link.text-dark:hover i {
+    color: #1A81D2 !important;
 }
 
 
