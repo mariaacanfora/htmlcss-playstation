@@ -41,6 +41,21 @@ body{
     color: #2D64E6;
 }
 
+.btn-secondary:hover,
+.btn-primary:hover
+{
+    outline: white solid 1px;
+    outline-offset: -3px;
+}
+
+.btn-danger:hover,
+.btn-light-hover:hover{
+    outline: rgb(0, 0, 0) solid 1px;
+    outline-offset: -3px;
+}
+
+
+
 
 
 
@@ -74,6 +89,23 @@ body{
 .w_8{ 
     width: 8%;  /* to change sony logo size */
 }
+
+.nav-link i{
+    color: #727272;
+    font-size: .8rem;
+}
+
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:hover i,
+.nav-link.text-dark:hover {
+    color: #1A81D2;
+}
+
+
+
+
+
 
 
 /* Main */
