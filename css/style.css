@@ -170,6 +170,26 @@ body{
 }
 
 
+.overlay{
+    opacity: 0.5;
+}
+
+.list-product-item{
+    border: none;
+    background: none;
+}
+
+.list-product-item:focus{
+    border-bottom: 2px solid #2D64E6;
+}
+
+.list-product-item:focus .overlay{
+    opacity: 1;
+}
+
+
+
+
 /* Footer */
 .bg-footer{
     background-color: #00439C;
